@@ -22,6 +22,4 @@ public class AddRemoveTest  extends BaseTest {
         int deleteButtons = driver.findElements(By.xpath("//button[text() = 'Delete']")).size();
         assertEquals(deleteButtons,1,"Количество кнопок не совпало");
     }
-
-
 }
